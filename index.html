@@ -1,0 +1,493 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="shortcut icon" href="./assets/img/favicon.ico">
+		<title>GuitariuM</title>
+		<script type="module" crossorigin="" src="./js/index.min.js?v=1755925088993"></script>
+		<link rel="stylesheet" crossorigin="" href="./css/index.min.css?v=1755925088993">
+	</head>
+	<body>
+		<div class="wrapper">
+			<header data-fls-header="" class="header">
+				<div class="header__container">
+					<div class="header__logo logo --icon-logo">
+						Guitariu
+						<span>M</span>
+					</div>
+					<div class="header__menu menu">
+						<button type="button" data-fls-menu="" class="menu__icon icon-menu">
+							<span></span>
+						</button>
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item">
+									<a href="#" class="menu__link">Store</a>
+								</li>
+								<li class="menu__item">
+									<a href="#" class="menu__link">Collections</a>
+								</li>
+								<li class="menu__item">
+									<a href="#" class="menu__link">Support</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+					<!--
+<fetch url="@components/layout/menu/menu.json">
+<each loop='item in response'>
+</each>
+</fetch>
+-->
+				</div>
+			</header>
+			<main class="page page--home">
+				<section class="page__hero hero">
+					<div class="hero__container">
+						<div class="hero__brand">
+							<div class="hero__img --icon-logo"></div>
+						</div>
+						<div class="hero__body body-hero">
+							<div data-fls-blockhead="" class="body-hero__blockhead blockhead">
+								<h1 class="blockhead__title">
+									Browse top quality
+									<span>Guitars</span>
+									online
+								</h1>
+							</div>
+							<div class="body-hero__text">
+								<p>Explore 50k+ latest collections of branded guitars online with GuitariuM.</p>
+							</div>
+							<div class="body-hero__actions actions-hero">
+								<a href="#" class="actions-hero__app">Get the App</a>
+								<div class="actions-hero__icon --icon-google"></div>
+								<div class="actions-hero__icon --icon-apple"></div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section data-fls-watcher="" class="page__store store">
+					<div class="store__container">
+						<h2 class="store__title blockhead__title blockhead__title--geen">
+							Check out the
+							<span>Store</span>
+						</h2>
+						<div class="store__body body-store">
+							<div class="body-store__header">
+								<h3 class="body-store__title">NEW ON THE BOARD</h3>
+								<a href="#" class="body-store__all">view all</a>
+							</div>
+							<div class="body-store__items">
+								<div data-fls-productcard="" class="body-store__item productcard">
+									<a href="#" class="productcard__image">
+										<picture>
+											<img class="productcard__picture" alt="Product1" src="./assets/img/store/01.webp">
+										</picture>
+									</a>
+									<a class="productcard__title">The Essential Les Paul</a>
+									<div class="productcard__price">$1,299.00</div>
+								</div>
+								<div data-fls-productcard="" class="body-store__item productcard">
+									<a href="#" class="productcard__image">
+										<picture>
+											<img class="productcard__picture" alt="Product1" src="./assets/img/store/02.webp">
+										</picture>
+									</a>
+									<a class="productcard__title">J-45 Standard</a>
+									<div class="productcard__price">$1,699.00</div>
+								</div>
+								<div data-fls-productcard="" class="body-store__item productcard">
+									<a href="#" class="productcard__image">
+										<picture>
+											<img class="productcard__picture" alt="Product1" src="./assets/img/store/03.webp">
+										</picture>
+									</a>
+									<a class="productcard__title">Hummingbird Standard</a>
+									<div class="productcard__price">$2,099.00</div>
+								</div>
+							</div>
+						</div>
+						<div class="store__body body-store">
+							<div class="body-store__header">
+								<h3 class="body-store__title">TOP SELLING</h3>
+								<a href="#" class="body-store__all">view all</a>
+							</div>
+							<div class="body-store__items">
+								<div data-fls-productcard="" class="body-store__item productcard">
+									<a href="#" class="productcard__image">
+										<picture>
+											<img class="productcard__picture" alt="Product1" src="./assets/img/store/04.webp">
+										</picture>
+									</a>
+									<a class="productcard__title">Active Precision Bass® PH V</a>
+									<div class="productcard__price">$4,199.00</div>
+								</div>
+								<div data-fls-productcard="" class="body-store__item productcard">
+									<a href="#" class="productcard__image">
+										<picture>
+											<img class="productcard__picture" alt="Product1" src="./assets/img/store/05.webp">
+										</picture>
+									</a>
+									<a class="productcard__title">Redondo Special</a>
+									<div class="productcard__price">$2,800.00</div>
+								</div>
+								<div data-fls-productcard="" class="body-store__item productcard">
+									<a href="#" class="productcard__image">
+										<picture>
+											<img class="productcard__picture" alt="Product1" src="./assets/img/store/06.webp">
+										</picture>
+									</a>
+									<a class="productcard__title">Professional II Stratocaster®</a>
+									<div class="productcard__price">$3,199.00</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="page__categories categories">
+					<div class="categories__container">
+						<h2 class="categories__title blockhead__title blockhead__title--geen">
+							Choose based on
+							<span>Categories</span>
+						</h2>
+						<div class="categories__items">
+							<a href="#" class="categories__item item-categories">
+								<div class="item-categories__title">Acoustic</div>
+								<div class="item-categories__image">
+									<picture>
+										<img alt="Acoustic-category" src="./assets/img/categories/01.webp">
+									</picture>
+								</div>
+							</a>
+							<a href="#" class="categories__item item-categories">
+								<div class="item-categories__title">Electric</div>
+								<div class="item-categories__image">
+									<picture>
+										<img alt="Acoustic-category" src="./assets/img/categories/02.webp">
+									</picture>
+								</div>
+							</a>
+							<a href="#" class="categories__item item-categories">
+								<div class="item-categories__title">Basses</div>
+								<div class="item-categories__image">
+									<picture>
+										<img alt="Acoustic-category" src="./assets/img/categories/03.webp">
+									</picture>
+								</div>
+							</a>
+							<a href="#" class="categories__item item-categories">
+								<div class="item-categories__title">Collections</div>
+								<div class="item-categories__image">
+									<picture>
+										<img alt="Acoustic-category" src="./assets/img/categories/04.webp">
+									</picture>
+								</div>
+							</a>
+						</div>
+					</div>
+				</section>
+				<section class="page__brands brands">
+					<div class="brands__container">
+						<h2 class="brands__title blockhead__title blockhead__title--geen">
+							Featuring the
+							<span>Best Brands</span>
+						</h2>
+						<div class="brands__items">
+							<div class="brands__item">
+								<picture>
+									<img alt="cacmine" src="./assets/img/brands/cacmine.webp">
+								</picture>
+							</div>
+							<div class="brands__item">
+								<picture>
+									<img alt="cacmine" src="./assets/img/brands/fender.webp">
+								</picture>
+							</div>
+							<div class="brands__item">
+								<picture>
+									<img alt="gibson" src="./assets/img/brands/gibson.webp">
+								</picture>
+							</div>
+							<div class="brands__item">
+								<picture>
+									<img alt="gretsch" src="./assets/img/brands/gretsch.webp">
+								</picture>
+							</div>
+							<div class="brands__item">
+								<picture>
+									<img alt="ibanez" src="./assets/img/brands/ibanez.webp">
+								</picture>
+							</div>
+							<div class="brands__item">
+								<picture>
+									<img alt="martin" src="./assets/img/brands/martin.webp">
+								</picture>
+							</div>
+							<div class="brands__item">
+								<picture>
+									<img alt="seagull" src="./assets/img/brands/seagull.webp">
+								</picture>
+							</div>
+							<div class="brands__item">
+								<picture>
+									<img alt="taylor" src="./assets/img/brands/taylor.webp">
+								</picture>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="page__try try">
+					<div class="try__container">
+						<h2 class="try__title blockhead__title blockhead__title--geen">
+							Why try
+							<span>GuitariuM</span>
+							?
+						</h2>
+						<div class="try__items">
+							<div class="try__item item-try">
+								<div class="item-try__icon">
+									<img src="./assets/img/try/01.svg" alt="Browsing">
+								</div>
+								<div class="item-try__title">Smooth Browsing</div>
+								<div class="item-try__text">
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+								</div>
+							</div>
+							<div class="try__item item-try">
+								<div class="item-try__icon">
+									<img src="./assets/img/try/02.svg" alt="Browsing">
+								</div>
+								<div class="item-try__title">EASY Delivery</div>
+								<div class="item-try__text">
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+								</div>
+							</div>
+							<div class="try__item item-try">
+								<div class="item-try__icon">
+									<img src="./assets/img/try/03.svg" alt="Browsing">
+								</div>
+								<div class="item-try__title">SwiFT PAYMENTS</div>
+								<div class="item-try__text">
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="page__custom custom">
+					<div class="custom__container">
+						<div class="custom__say say-custom">
+							<h2 class="say-custom__title blockhead__title blockhead__title--44">
+								What our
+								<span>customer’s</span>
+								say
+							</h2>
+							<!-- Оболонка слайдера -->
+							<div data-fls-slider="" class="say-custom__slider swiper">
+								<!-- Частина слайдера, що рухається -->
+								<div class="say-custom__wrapper swiper-wrapper">
+									<!-- Слайд -->
+									<div class="say-custom__slide slide-say-custom swiper-slide">
+										<div class="slide-say-custom__picture">
+											<div class="slide-say-custom__image">
+												<picture>
+													<img alt="02" src="./assets/img/custom/02.webp">
+												</picture>
+											</div>
+										</div>
+										<div class="slide-say-custom__body">
+											<div class="slide-say-custom__text">
+												<p>
+													“The Quality and Delivery is always on time, being a professional guitarist myself I love
+										the customer service the brand provides, highly recommend Rhythm anytime.”
+												</p>
+											</div>
+											<div class="slide-say-custom__autor">
+												<div class="slide-say-custom__name">Ryan Wels</div>
+												<div class="slide-say-custom__position">professional guitarist</div>
+											</div>
+										</div>
+									</div>
+									<div class="say-custom__slide slide-say-custom swiper-slide">
+										<div class="slide-say-custom__picture">
+											<div class="slide-say-custom__image">
+												<picture>
+													<img alt="01" src="./assets/img/custom/01.webp">
+												</picture>
+											</div>
+										</div>
+										<div class="slide-say-custom__body">
+											<div class="slide-say-custom__text">
+												<p>
+													"Lorem ipsum dolor sit amet consectetur adipisicing elit. In, magni doloremque nulla
+										ducimus nostrum excepturi voluptatum ab laudantium, praesentium enim quis sunt maxime
+										labore, itaque molestiae dicta voluptatem et neque!"
+												</p>
+												<p>
+													“The Quality and Delivery is always on time, being a professional guitarist myself I love
+										the customer service the brand provides, highly recommend Rhythm anytime.”
+												</p>
+											</div>
+											<div class="slide-say-custom__autor">
+												<div class="slide-say-custom__name">Ryan Wels</div>
+												<div class="slide-say-custom__position">professional guitarist</div>
+											</div>
+										</div>
+									</div>
+									<div class="say-custom__slide slide-say-custom swiper-slide">
+										<div class="slide-say-custom__picture">
+											<div class="slide-say-custom__image">
+												<picture>
+													<img alt="02" src="./assets/img/custom/02.webp">
+												</picture>
+											</div>
+										</div>
+										<div class="slide-say-custom__body">
+											<div class="slide-say-custom__text">
+												<p>
+													“The Quality and Delivery is always on time, being a professional guitarist myself I love
+										the customer service the brand provides, highly recommend Rhythm anytime.”
+												</p>
+											</div>
+											<div class="slide-say-custom__autor">
+												<div class="slide-say-custom__name">Ryan Wels</div>
+												<div class="slide-say-custom__position">professional guitarist</div>
+											</div>
+										</div>
+									</div>
+									<div class="say-custom__slide slide-say-custom swiper-slide">
+										<div class="slide-say-custom__picture">
+											<div class="slide-say-custom__image">
+												<picture>
+													<img alt="01" src="./assets/img/custom/01.webp">
+												</picture>
+											</div>
+										</div>
+										<div class="slide-say-custom__body">
+											<div class="slide-say-custom__text">
+												<p>
+													"Lorem ipsum dolor sit amet consectetur adipisicing elit. In, magni doloremque nulla
+										ducimus nostrum excepturi voluptatum ab laudantium, praesentium enim quis sunt maxime
+										labore, itaque molestiae dicta voluptatem et neque!"
+												</p>
+											</div>
+											<div class="slide-say-custom__autor">
+												<div class="slide-say-custom__name">Ryan Wels</div>
+												<div class="slide-say-custom__position">professional guitarist</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- Якщо потрібна пагінація -->
+								<div class="swiper-pagination"></div>
+							</div>
+						</div>
+						<div class="custom__buy buy-custom">
+							<div class="buy-custom__body">
+								<h2 class="buy-custom__title blockhead__title blockhead__title--44">
+									Browse and buy your
+									<span>favorite
+							guitars</span>
+									with GuitariuM.
+								</h2>
+								<div class="buy-custom__apps buy-custom-apps">
+									<a href="#" class="buy-custom-apps__item">
+										<picture>
+											<img alt="Google" src="./assets/img/buy/google.webp">
+										</picture>
+									</a>
+									<a href="#" class="buy-custom-apps__item">
+										<picture>
+											<img alt="Store" src="./assets/img/buy/app.webp">
+										</picture>
+									</a>
+								</div>
+							</div>
+							<div class="buy-custom__images">
+								<img src="./assets/img/custom/Group%205207.png" alt="Image">
+							</div>
+						</div>
+					</div>
+				</section>
+			</main>
+			<footer data-fls-footer="" class="footer">
+				<div class="footer__container">
+					<div class="footer__body body-footer">
+						<div class="body-footer__column">
+							<a data-fls-logo="" href="index.html" class="body-footer__link-logo link-logo">
+								<div class="body-footer__logo logo --icon-logo">
+									Guitariu
+									<span>m</span>
+								</div>
+							</a>
+							<ul class="body-footer__contacts contacts-footer">
+								<li class="contacts-footer__item">
+									<a href="mailto:Enquiry@Rhythm.com" class="contacts-footer__link contacts-footer__link_mail">Enquiry@Rhythm.com</a>
+								</li>
+								<li class="contacts-footer__item">
+									<a href="#" class="contacts-footer__link contacts-footer__link_location">San Francisco</a>
+								</li>
+							</ul>
+						</div>
+						<div class="body-footer__column body-footer__column_full">
+							<nav class="body-footer__menu menu-footer">
+								<div class="menu-footer__column">
+									<div data-fls-blockhead="" class="menu-footer__title footerhead">
+										<h4 class="footerhead__title">Pages</h4>
+									</div>
+									<ul class="menu-footer__list">
+										<li class="menu-footer__item">
+											<a href="#" class="menu-footer__link">Store</a>
+										</li>
+										<li class="menu-footer__item">
+											<a href="#" class="menu-footer__link">Collections</a>
+										</li>
+										<li class="menu-footer__item">
+											<a href="#" class="menu-footer__link">Support</a>
+										</li>
+									</ul>
+								</div>
+								<div class="menu-footer__column">
+									<div data-fls-blockhead="" class="menu-footer__title footerhead">
+										<h4 class="footerhead__title">Product</h4>
+									</div>
+									<ul class="menu-footer__list">
+										<li class="menu-footer__item">
+											<a href="#" class="menu-footer__link">Terms</a>
+										</li>
+										<li class="menu-footer__item">
+											<a href="#" class="menu-footer__link">Privacy Policy</a>
+										</li>
+										<li class="menu-footer__item">
+											<a href="#" class="menu-footer__link">Copyright</a>
+										</li>
+									</ul>
+								</div>
+							</nav>
+						</div>
+						<div class="body-footer__column">
+							<div class="body-footer__social social-footer">
+								<div data-fls-blockhead="" class="menu-footer__title social-footer__title footerhead">
+									<h4 class="footerhead__title">Follow us</h4>
+								</div>
+								<div class="social-footer__items">
+									<a href="#" class="social-footer__item item-Facebook">
+										<img src="./assets/img/footer/Facebook.svg" alt="Facebook">
+									</a>
+									<a href="#" class="social-footer__item item-Twitter">
+										<img src="./assets/img/footer/Twitter.svg" alt="Twitter">
+									</a>
+									<a href="#" class="social-footer__item item-Instagram">
+										<img src="./assets/img/footer/Instagram.svg" alt="Instagram">
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="footer__copy">© 2025 Copyright.Rhythm</div>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>
